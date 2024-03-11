@@ -32,8 +32,6 @@ nav a {
 
 nav a:hover {
   border: 1.5px solid white;
-  /* border-radius: 20px;
-  padding: px; */
   transition-duration: 100ms;
 }
 
@@ -44,15 +42,6 @@ li {
   font-weight: 400;
   font-style: normal;
   font-variant: small-caps;
-}
-
-header{
-
-  background-color: wite;
-  display:flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 main {

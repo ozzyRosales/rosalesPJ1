@@ -19,9 +19,6 @@ nav {
   z-index: 12;
 }
 
-img{
-  width: 5%;
-}
 
 nav a {
   color: white;
@@ -34,18 +31,9 @@ nav a {
 
 nav a:hover {
   border: 1.5px solid white;
-  border-radius: 20px;
-  padding: px;
   transition-duration: 100ms;
 }
 
-nav a.active {
-  color: white;
-  background-color: white;
-  border: 20px solid white;
-  border-radius: 20px;
-  padding: 3px 5px;
-}
 li {
 
   display: inline;
@@ -55,14 +43,90 @@ li {
   font-variant: small-caps;
 }
 
-header{
-
-  background-color: white;
-  display:flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+main {
+  margin: 0% 10%;
 }
+
+
+h4 {
+  font-family: 'Jost', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  text-size-adjust: auto;
+  font-weight: 900;
+} 
+
+
+.like-section {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.text-cell{
+  justify-content: left;
+  margin-right: 5%;
+  padding-top: 2%;
+}
+
+.like-p {
+  padding-bottom: 5%;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  text-align: justify;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.section-title {
+  font-family: 'Gruppo', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  color:black;
+  width: fit-content;
+  padding: 5px;
+} 
+
+video{
+  width: 800px;
+  pointer-events:none;
+}
+
+
+footer img {
+  width: 2%;
+  padding: 7px;
+}
+
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.cell{
+  width: 50%;
+  margin: auto;
+  padding-top: 2%;
+}
+
+p {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  color: #020c3d;
+}
+
 footer {
   padding-top: 20px;
   margin: auto;
@@ -81,3 +145,5 @@ footer h6 {
   font-size: 12px;
   padding: 7px;
 }
+
+
