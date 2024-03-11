@@ -32,18 +32,11 @@ nav a {
 
 nav a:hover {
   border: 1.5px solid white;
-  border-radius: 20px;
-  padding: px;
+  /* border-radius: 20px;
+  padding: px; */
   transition-duration: 100ms;
 }
 
-/* nav a.active {
-  color: white;
-  background-color: white;
-  border: 20px solid white;
-  border-radius: 20px;
-  padding: 3px 5px;
-} */
 li {
 
   display: inline;
@@ -86,10 +79,7 @@ main {
 .cell{
   width: 50%;
   margin-top: 15px;
-  margin-bottom: 50px;
-  /* padding-top: 2%; */
-
-  
+  margin-bottom: 50px;  
 }
 
 #littleOscar {

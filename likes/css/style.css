@@ -18,6 +18,7 @@ nav {
   background-color: black;
   z-index: 12;
 }
+/* Nav bar code SFSU student Zanett V  */
 
 nav a {
   color: white;
@@ -30,8 +31,6 @@ nav a {
 
 nav a:hover {
   border: 1.5px solid white;
-  border-radius: 20px;
-  padding: px;
   transition-duration: 100ms;
 }
 
@@ -46,7 +45,7 @@ li {
 
 header{
 
-  background-color: wite;
+  background-color: white;
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -68,22 +67,27 @@ h4 {
 
 
 
-.spotify-section {
+.like-section {
   display: flex;
   flex-direction: row;
   align-content: center;
 }
 
-.spotify-gallery {
+/* .spotify-gallery {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin: auto;
   padding: 5px;
   border-radius: 25px;
+} */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-
-
 
 .text-cell{
   justify-content: left;
@@ -91,16 +95,16 @@ h4 {
   padding-top: 2%;
 }
 
-.giflogo{
+/* .giflogo{
   width: 5px;
   size: 5px;
 
 }
 .giff{
   width: 200px;
-}
+} */
 
-.spotify-p {
+.like-p {
   padding-bottom: 5%;
   margin-top: 20px;
   margin-bottom: 35px;
@@ -110,21 +114,6 @@ h4 {
   font-style: normal;
 }
 
-
-
-.spotify-list {
-  font-family: 'Jost', sans-serif;
-  text-align: left;
-}
-
-
-.spotify-artis{
-  object-fit: contain;
-  width: 10%;
-  display: flex;
-  flex-wrap: wrap;
-  
-} 
 
 
 .section-title {
@@ -182,7 +171,7 @@ body {
 } */
 
 
-h3 {
+/* h3 {
   text-align: left;
   font-family: 'Handjet', sans-serif;
   font-size: 65px;
@@ -190,7 +179,7 @@ h3 {
   padding-top: 60px;
   padding-bottom: 55px;
   letter-spacing: 2px;
-}
+} */
 
 .box {
   display: flex;
@@ -205,16 +194,16 @@ h3 {
 }
 
 
-header img {
+/* header img {
   display: flex;
   flex-direction: column;
   margin: auto;
   margin-top: 35px;
   margin-bottom: 15px;
   max-width: 95px;
-}
+} */
 
-h2 {
+/* h2 {
   display: flex;
   flex-direction: row;
   font-family: 'Handjet', sans-serif;
@@ -223,13 +212,13 @@ h2 {
   width: auto;
   color: #132fba;
   margin-top: 10%;
-}
+} */
 
-#splash-text {
+/* #splash-text {
   margin-right: 5%;
   padding-left: -5%;
   display: inline;
-}
+} */
 
 p {
   font-family: 'Jost', sans-serif;
@@ -237,21 +226,21 @@ p {
   color: #020c3d;
 }
 
-.bio-p {
+/* .bio-p {
   margin: 10% 15% 15% 0%;
-}
+} */
 
 li {
   display: inline;
 }
 
-.description-p {
+/* .description-p {
   padding-bottom: 5%;
   margin-top: 25px;
   margin-bottom: 35px;
   padding-left: 5%;
   padding-right: 5%;
-}
+} */
 
 footer {
   padding-top: 20px;
