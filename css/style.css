@@ -53,11 +53,11 @@ main {
 
 #name-text {
   padding-right: 90px;
-  margin-right: 7%;
-  padding-left: -5%;
+  margin-right: 2%;
+  padding-left: -3%;
   margin-top: 25px;
   width: 250;
-}
+} 
 
 
 .box {
@@ -70,7 +70,7 @@ main {
 }
 
 .cell{
-  width: 50%;
+  width: 60%;
   margin-top: 15px;
   margin-bottom: 50px;  
 }
@@ -79,6 +79,11 @@ main {
   width: 80%;
   margin: auto;
   justify-content: right;
+}
+
+#recordVideo{
+  display: flex;
+  justify-content: center;
 }
 
 footer {
