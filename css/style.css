@@ -20,6 +20,9 @@ nav {
 }
 
 
+#littleOscar{
+  padding-top: 150px;
+}
 
 nav a {
   color: white;
@@ -49,7 +52,8 @@ main {
 }
 
 #name-text {
-  margin-right: 5%;
+  padding-right: 90px;
+  margin-right: 7%;
   padding-left: -5%;
   margin-top: 25px;
   width: 250;
